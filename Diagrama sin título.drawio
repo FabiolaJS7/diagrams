@@ -242,10 +242,98 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NvjmD33tDzZ0oH_J858b" name="Página-2">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2022" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="EGghJuv-b2jkYaArtv-v-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EGghJuv-b2jkYaArtv-v-1" target="EGghJuv-b2jkYaArtv-v-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EGghJuv-b2jkYaArtv-v-1" value="service-customer&lt;div&gt;:8181&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="390" y="180" width="170" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="EGghJuv-b2jkYaArtv-v-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="EGghJuv-b2jkYaArtv-v-2" target="EGghJuv-b2jkYaArtv-v-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EGghJuv-b2jkYaArtv-v-2" value="service-product&lt;div&gt;:8383&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="400" y="370" width="160" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="EGghJuv-b2jkYaArtv-v-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EGghJuv-b2jkYaArtv-v-4" target="EGghJuv-b2jkYaArtv-v-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EGghJuv-b2jkYaArtv-v-37" value="configurations" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EGghJuv-b2jkYaArtv-v-36">
+          <mxGeometry x="-0.3148" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EGghJuv-b2jkYaArtv-v-4" value="config-server-bc&lt;div&gt;:8888&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="510" y="140" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EGghJuv-b2jkYaArtv-v-10" value="GitHub" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+          <mxGeometry x="660" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EGghJuv-b2jkYaArtv-v-25" value="discovery-service&lt;div&gt;:8761&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="230" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EGghJuv-b2jkYaArtv-v-31" value="MongoDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="680" y="200" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EGghJuv-b2jkYaArtv-v-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.056;entryY=0.415;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EGghJuv-b2jkYaArtv-v-1" target="EGghJuv-b2jkYaArtv-v-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EGghJuv-b2jkYaArtv-v-33" value="MongoDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="690" y="372" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EGghJuv-b2jkYaArtv-v-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EGghJuv-b2jkYaArtv-v-2" target="EGghJuv-b2jkYaArtv-v-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EGghJuv-b2jkYaArtv-v-35" value="config-server-bc&lt;div&gt;:8888&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="520" y="440" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EGghJuv-b2jkYaArtv-v-38" value="GitHub" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+          <mxGeometry x="650" y="545" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EGghJuv-b2jkYaArtv-v-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.4;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EGghJuv-b2jkYaArtv-v-35" target="EGghJuv-b2jkYaArtv-v-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EGghJuv-b2jkYaArtv-v-40" value="configurations" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EGghJuv-b2jkYaArtv-v-39">
+          <mxGeometry x="0.2567" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EGghJuv-b2jkYaArtv-v-44" value="LEYENDA" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="452" width="350" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="EGghJuv-b2jkYaArtv-v-46" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="EGghJuv-b2jkYaArtv-v-44">
+          <mxGeometry x="10" y="44" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EGghJuv-b2jkYaArtv-v-47" value="Microservicios API REST" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EGghJuv-b2jkYaArtv-v-44">
+          <mxGeometry x="60" y="40" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EGghJuv-b2jkYaArtv-v-48" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="EGghJuv-b2jkYaArtv-v-44">
+          <mxGeometry x="10" y="74" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EGghJuv-b2jkYaArtv-v-49" value="Servicio de configuración (spring-cloud-config-server)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EGghJuv-b2jkYaArtv-v-44">
+          <mxGeometry x="60" y="70" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EGghJuv-b2jkYaArtv-v-53" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="EGghJuv-b2jkYaArtv-v-44">
+          <mxGeometry x="10" y="104" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EGghJuv-b2jkYaArtv-v-54" value="Colección MongoDB" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EGghJuv-b2jkYaArtv-v-44">
+          <mxGeometry x="60" y="100" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EGghJuv-b2jkYaArtv-v-58" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="EGghJuv-b2jkYaArtv-v-44">
+          <mxGeometry x="10" y="134" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EGghJuv-b2jkYaArtv-v-59" value="Repositorio GitHub" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EGghJuv-b2jkYaArtv-v-44">
+          <mxGeometry x="60" y="130" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EGghJuv-b2jkYaArtv-v-60" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="EGghJuv-b2jkYaArtv-v-44">
+          <mxGeometry x="10" y="164" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EGghJuv-b2jkYaArtv-v-61" value="Servicio localización (spring-cloud-starter-netflix-eureka-server)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EGghJuv-b2jkYaArtv-v-44">
+          <mxGeometry x="60" y="160" width="290" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
