@@ -158,7 +158,7 @@
         <mxCell id="7jKar9Oq4WMOaTZj31np-10" value="ApiClient" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="80" y="40" width="100" height="1070" as="geometry" />
         </mxCell>
-        <mxCell id="7jKar9Oq4WMOaTZj31np-13" value="POST:&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;api/customers&lt;/span&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="7jKar9Oq4WMOaTZj31np-12" parent="1">
+        <mxCell id="7jKar9Oq4WMOaTZj31np-13" value="POST:&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;api/customers&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="7jKar9Oq4WMOaTZj31np-12" parent="1">
           <mxGeometry x="-0.001" relative="1" as="geometry">
             <mxPoint x="130" y="115" as="sourcePoint" />
             <mxPoint as="offset" />
@@ -200,7 +200,7 @@
             <mxPoint x="130.00444444444457" y="229.9999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7jKar9Oq4WMOaTZj31np-34" value="GET: api/customers" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1">
+        <mxCell id="7jKar9Oq4WMOaTZj31np-34" value="GET:&amp;nbsp;&lt;div&gt;api/customers&lt;/div&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1">
           <mxGeometry x="-0.001" relative="1" as="geometry">
             <mxPoint x="130" y="340" as="sourcePoint" />
             <mxPoint x="285" y="340" as="targetPoint" />
@@ -240,7 +240,7 @@
             <mxPoint x="126.38444444444457" y="399.9999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7jKar9Oq4WMOaTZj31np-44" value="PUT: api/customers/{customerId}" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1">
+        <mxCell id="7jKar9Oq4WMOaTZj31np-44" value="PUT:&amp;nbsp;&lt;div&gt;api/customers/{customerId}&lt;/div&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1">
           <mxGeometry x="-0.001" relative="1" as="geometry">
             <mxPoint x="130" y="510" as="sourcePoint" />
             <mxPoint x="285" y="510" as="targetPoint" />
@@ -322,7 +322,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="7jKar9Oq4WMOaTZj31np-73" value="PUT: api/customers/{customerId}" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1">
+        <mxCell id="7jKar9Oq4WMOaTZj31np-73" value="DELETE:&amp;nbsp;&lt;div&gt;api/customers/{customerId}&lt;/div&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1">
           <mxGeometry x="-0.001" relative="1" as="geometry">
             <mxPoint x="130" y="770" as="sourcePoint" />
             <mxPoint x="285" y="770" as="targetPoint" />
